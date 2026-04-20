@@ -10,6 +10,7 @@ const config = defineConfig({
     tailwindcss(),
     viteReact(),
   ],
+  base: '/earthquake-web-demo/',
   test: {
     environment: 'node',
     include: ['src/**/__tests__/**/*.test.ts'],
